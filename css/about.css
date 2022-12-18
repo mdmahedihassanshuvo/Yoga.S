@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.page1{
+    background: #6c9894;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+.page1 .side1{
+    width: 40%;
+    margin-left: 10%;
+}
+
+.page1 .side1 h1{
+    text-align: left;
+    margin-top: 30%;
+    margin-left: 15%;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.page1 .side1 p{
+    text-align: left;
+    margin-left: 15%;
+    color: #fff;
+    font-size: 20px;
+}
+
+.page1 .side1 button{
+    margin-left: 15%;
+    padding: 15px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #6c9894;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: all ease 0.5s;
+}
+
+.page1 .side1 button:hover{
+    background: blue;
+    color: #fff;
+}
+
+.page1 .side2{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.side2 img{
+    width: 80%;
+    height: 80%;
+    margin-top: 12%;
+}
+
+.page2{
+    background: #fff;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+
+.page2 .side3{
+    width: 40%;
+    margin-left: 10%;
+}
+
+.page2 .side3 img{
+    width: 80%;
+    height: 80%;
+    margin-top: 15%;
+}
+
+.page2 .side4{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.page2 .side4 h1{
+    text-align: left;
+    margin-top: 30%;
+    margin-left: 15%;
+    color: #6c9894;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.page2 .side4 p{
+    text-align: left;
+    margin-left: 15%;
+    color: #6c9894;
+    font-size: 20px;
+}
+
+.page2 .side4 button{
+    margin-left: 15%;
+    padding: 15px 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #6c9894;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all ease 0.5s;
+}
+
+.page2 .side4 button:hover{
+    background: blue;
+    color: #fff;
+}
