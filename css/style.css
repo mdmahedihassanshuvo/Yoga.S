@@ -14,64 +14,7 @@ body{
 
 }
 
-#navbar{
-    width: 100%;
-    display: flex;
-}
 
-#navbar .logo{
-    width: 10%;
-    /* height: 140px; */
-}
-
-#navbar .nav-part{
-    width: 90%;
-}
-
-.logo{
-    float: right;
-    justify-items: right;
-
-}
-
-.logo img{
-    padding: 10px 15px 10px 15px;
-    background: #a7d7c5;
-    text-align: right;
-    float: right;
-}
-
-.navbar{
-    background: #e2ede8;
-    min-height: 50px;
-    line-height: 50px;
-    
-    margin-top: 22px;
-}
-
-.navbar ul{
-    display: flex;
-    float: right;
-    padding-right: 100px;
-}
-
-.navbar ul li{
-    list-style: none;
-    
-}
-
-.navbar ul li a{
-    color: #494f4e;
-    text-decoration: none;
-    padding-right: 55px;
-    text-transform: uppercase;
-    font-weight:800;
-    transition: all ease 0.5s;
-}
-
-.navbar ul li a:hover{
-    color: blue;
-}
 
 .content{
     width: 100%;
